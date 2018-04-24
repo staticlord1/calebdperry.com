@@ -1,0 +1,13 @@
+name: Clean Blog
+description: "Grav skeleton for Clean Blog, a Grav theme based on Clean Blog HTML template of Start Bootstrap."
+version: 1.4.2
+icon: edit
+author:
+  name: Hung Tran
+  email: flatfiledeveloper@gmail.com
+  url: https://flatfiledeveloper.com
+homepage: https://github.com/tranduyhung/grav-theme-clean-blog
+demo: https://grav-theme-clean-blog.flatfiledeveloper.com
+keywords: theme, template, bootstrap, clean, blog, responsive, html5
+bugs: https://github.com/tranduyhung/grav-skeleton-clean-blog/issues
+license: MIT
