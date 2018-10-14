@@ -8,23 +8,12 @@ vendor/*
 
 # Grav Specific
 backup/*
-!backup/.*
 cache/*
-!cache/.*
 assets/*
-!assets/.*
 logs/*
-!logs/.*
 images/*
-!images/.*
-user/accounts/*
-!user/accounts/.*
 user/data/*
-!user/data/.*
-user/plugins/*
-!user/plugins/.*
-user/themes/*
-!user/themes/.*
+user/accounts/*
 user/localhost/config/security.yaml
 user/config/security.yaml
 
