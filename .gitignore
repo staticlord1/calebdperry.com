@@ -7,11 +7,11 @@ vendor/*
 .sass-cache
 
 # Grav Specific
+assets/*
 backup/*
 cache/*
-assets/*
-logs/*
 images/*
+logs/*
 user/data/*
 user/accounts/*
 user/localhost/config/security.yaml
