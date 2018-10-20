@@ -21,7 +21,7 @@
                     {% if item.skills %}
                     <div class="bars">
                         <ul class="skills">
-                            {% for skill in item.skills %}
+                            {% for skill in item.skills|sort %}
                             <li><span class="bar-expand" style="width: {{ skill.level }}%;animation: {{ skill.name|lower }} 2s ease;"></span><em>{{ skill.name }}</em></li>
                             {% endfor %}
                         </ul>
