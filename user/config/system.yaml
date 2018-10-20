@@ -22,7 +22,7 @@ home:
   alias: /home
   hide_in_urls: false
 pages:
-  theme: brilliant-resume
+  theme: ceevee
   order:
     by: default
     dir: asc
@@ -132,7 +132,7 @@ media:
   unsupported_inline_types: {  }
   allowed_fallback_types: {  }
   auto_metadata_exif: false
-  upload_limit: 67108864
+  upload_limit: 2097152
 session:
   enabled: true
   initialize: true
