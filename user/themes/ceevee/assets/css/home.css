@@ -1,0 +1,10 @@
+#home {
+    background-color: #570006;
+    background-image: none;
+}
+
+canvas.particles-js-canvas-el{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

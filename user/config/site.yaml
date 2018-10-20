@@ -1,7 +1,9 @@
-title: Caleb Perry
+title: calebdperry.com
 author:
   name: Caleb Perry
   email: 'calebperry4@gmail.com'
 metadata:
     description: 'A site dedicated as a hub for all of my projects.'
-
+header:
+  title: "Caleb Perry"
+  description: "Full Stack Developer, Splunk App Developer"
