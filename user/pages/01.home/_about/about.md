@@ -3,7 +3,12 @@ title: About
 title2: Contact Details
 address:
   - line: Caleb Perry
-  - line: (123)456-7980
+  - line: (937) 863-3606
 email:
-  - address: placeholder@calebdperry.com
+  - address: cperry@calebdperry.com
 ---
+
+<!-- Content -->
+## About Me
+
+I'm a Florida based <strong>full stack developer</strong> that currently specializes in <strong>Splunk app development</strong>.
