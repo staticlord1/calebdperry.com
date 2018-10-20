@@ -72,4 +72,3 @@ form:
         - display: thankyou  
 ---
 
-What's dis? 0w0
