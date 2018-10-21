@@ -1,10 +1,10 @@
 enabled: true
-from: joe@test.com
+from: cperry@calebdperry.com
 from_name: Joe
-to: joe@test.com
+to: cperry@calebdperry.com
 to_name: Joe
 mailer:
-  engine: mail
+  engine: smtp
   smtp:
     server: localhost
     port: 25
