@@ -22,11 +22,12 @@ n[b]+'" class="twitter_fav_icon">Favorite</a></p>');B&&void 0!==h[b]&&(l=h[b],vo
 var config1 = {
   "id": '{{ site.twitter.id }}',
   "domId": '{{ site.twitter.domId }}',
-  "maxTweets": {{ site.twitter.maxTweets }},
-  "enableLinks": {{ site.twitter.enableLinks }},
-  "showInteraction": {{ site.twitter.showInteraction }},
-  "showImages": {{ site.twitter.showImages }},
-  "showUser": {{ site.twitter.showUser }},
+  "maxTweets": 0, 
+  {# {{ site.twitter.maxTweets }}, #}
+  "enableLinks": {{ site.twitter.enableLinks | default('false') }},
+  "showInteraction": {{ site.twitter.showInteraction | default('false') }},
+  "showImages": {{ site.twitter.showImages | default('false') }},
+  "showUser": {{ site.twitter.showUser | default('false') }},
 };
-twitterFetcher.fetch(config1);
+{# twitterFetcher.fetch(config1); #}
 </script>

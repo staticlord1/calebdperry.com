@@ -18,7 +18,7 @@ content:
 
 form:
     name: my-nice-form
-    action: /contact
+    action: /home
     fields:
         - name: name
           id: name
@@ -77,5 +77,5 @@ form:
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
         - message: Thanks for reaching out! I'll respond as soon as possible :)
-        - display: /thankyou  
+        - display: thankyou 
 ---

@@ -1,14 +1,16 @@
 enabled: true
-from: cperry@calebdperry.com
-from_name: Joe
-to: cperry@calebdperry.com
-to_name: Joe
+from: calebperry4@gmail.com
+from_name: 'Caleb Perry'
+to: calebperry4@gmail.com
+to_name: 'Caleb Perry'
 mailer:
   engine: smtp
   smtp:
-    server: localhost
-    port: 25
-    encryption: none
+    server: smtp.gmail.com
+    port: 587
+    encryption: tls
+    user: calebperry4@gmail.com
+    password: rwdvcpemdgahxhou
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
