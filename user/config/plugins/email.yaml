@@ -1,6 +1,6 @@
 enabled: true
-from: cperry@calebdperry.com
-from_name: 'Caleb Perry'
+from: noreply@calebdperry.com
+from_name: 'No Reply'
 to: cperry@calebdperry.com
 to_name: 'Caleb Perry'
 mailer:
@@ -9,9 +9,11 @@ mailer:
     server: mail.calebdperry.com
     port: 465
     encryption: ssl
-    user: cperry@calebdperry.com
-    password: Cperry!615243
+    user: noreply@calebdperry.com
+    password: PL@nk0ffer
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
 debug: false
+cc: calebperry4@gmail.com
+cc_name: 'Caleb Perry'
