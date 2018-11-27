@@ -11,4 +11,4 @@ email:
 <!-- Content -->
 ## About Me
 
-I'm a Florida based <strong>software engineer</strong> that currently specializes in <strong>Splunk app development</strong>.
+I'm a Florida based <strong>full stack developer</strong> that currently specializes in <strong>Splunk app development</strong>.

@@ -1,15 +1,19 @@
 enabled: true
-from: joe@test.com
-from_name: Joe
-to: joe@test.com
-to_name: Joe
+from: noreply@calebdperry.com
+from_name: 'No Reply'
+to: cperry@calebdperry.com
+to_name: 'Caleb Perry'
 mailer:
-  engine: mail
+  engine: smtp
   smtp:
-    server: localhost
-    port: 25
-    encryption: none
+    server: mail.calebdperry.com
+    port: 465
+    encryption: ssl
+    user: noreply@calebdperry.com
+    password: PL@nk0ffer
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
 debug: false
+cc: calebperry4@gmail.com
+cc_name: 'Caleb Perry'

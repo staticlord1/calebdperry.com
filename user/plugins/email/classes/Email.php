@@ -171,7 +171,7 @@ class Email
                 case 'sendmail':
                 default:
                     $options = $config->get('plugins.email.mailer.sendmail');
-                    $bin = !empty($options['bin']) ? $options['bin'] : '/usr/sbin/sendmail';
+                    $bin = !empty($options['bin']) ? $options['bin'] : '/usr/sbin/sendmail -bs';
                     $transport = \Swift_SendmailTransport::newInstance($bin);
                     break;
             }
