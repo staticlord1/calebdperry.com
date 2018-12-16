@@ -32,26 +32,44 @@ sections:
             issue details, document and escalate to appropriate level of technician; and assisting on various client
             projects."
   
-  - title: Skills
+  - title: Languages
+    css_class: language
+    items:
+      - title:
+        info:
+        date:
+        description:
+        languages:
+          - name: JavaScript
+            level:
+          - name: Python
+            level:
+          - name: PHP
+            level:
+          - name: HTML + CSS
+            level:
+
+  - title: Tools
     css_class: skill
     items:
       - title:
         info:
         date:
         description:
-        skills:
-            - name: CSS
-              level: 35
+        tools:
             - name: Grav
               level: 45
-            - name: JavaScript
-              level: 80
             - name: Jquery
               level: 75
-            - name: PHP
-              level: 50
-            - name: Python
-              level: 60
+            - name: ELK Stack
+              level:
+            - name: Splunk
+              level:
+            - name: Laravel
+              level:
+            - name: Codeigniter
+              level:
+            - name: Wordpress
 ---
 
 <!-- Content -->
