@@ -260,7 +260,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .language {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -301,14 +301,17 @@ ul#nav li.current a { color: #F06000; }
   	height: 42px;
   	border-radius: 3px;
 }
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+
+.language em, .skill em {
+   font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+   margin-right: 10px;
+   margin-left: 10px;
+	/* top: -36px; */
 }
 .bar-expand {
    position: absolute;

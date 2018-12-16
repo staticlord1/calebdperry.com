@@ -1,3 +1,36 @@
+# v1.8.15
+## 12/14/2018
+
+1. [](#improved)
+    * Fire `onAdminSave()` event during `AdminController::taskSaveAs()` [#1544](https://github.com/getgrav/grav-plugin-admin/issues/1544)
+1. [](#bugfix)
+    * Clean user post to ensure dynamically added form fields are not saved
+
+# v1.8.14
+## 11/12/2018
+
+1. [](#bugfix)
+    * Fixed Grav core update potentially spinning forever because of an error which happens after a successful upgrade
+    * Saving in expert mode can cause `undefined index: header` error [#1537](https://github.com/getgrav/grav-plugin-admin/issues/1537)
+
+# v1.8.13
+## 11/05/2018
+
+1. [](#new)
+    * Added new `|nested()` Twig filter to access array objects with dot notation syntax
+1. [](#bugfix)
+    * Fixed issue with complex lists structure and nested dot-notation [admin#2236](https://github.com/getgrav/grav/issues/2236)
+
+# v1.8.12
+## 10/24/2018
+
+1. [](#improved)
+    * Updated various lang strings
+    * Removed duplicate lang strings
+1. [](#bugfix)
+    * Fix XSS checking when empty content [#1533](https://github.com/getgrav/grav-plugin-admin/issues/1533)
+    * Fix DirectInstall not working [#1535](https://github.com/getgrav/grav-plugin-admin/issues/1535)
+
 # v1.8.11
 ## 10/08/2018
 
@@ -15,7 +48,7 @@
 ## 10/01/2018
 
 1. [](#new)
-    * IMPORTANT: Non `admin.super` users are now subject to XSS validation in Page content.  Configurable via Configuration / Security 
+    * IMPORTANT: Non `admin.super` users are now subject to XSS validation in Page content.  Configurable via Configuration / Security
     * New XSS content warnings and integration into page save
     * Added new event `onAdminPage()` which allows plugins to customize `Page` object in `$event['page']`
 1. [](#improved)
@@ -27,7 +60,7 @@
     * Twig 2 compatibility fixes for macros
     * Updated `composer.json` to better match Grav 1.5
     * Remove `package-lock.json` as it was referencing an insecure JS package
-        
+
 # v1.8.9
 ## 08/23/2018
 
