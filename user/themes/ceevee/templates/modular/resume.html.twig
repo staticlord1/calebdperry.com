@@ -21,7 +21,7 @@
                     {% if item.languages %}
                     <div class="twelve columns">
                         {% for language in item.languages|sort %}
-                                <em>{{ language.name }}</em>
+                                <em class="lang">{{ language.name }}</em>
                             {% if loop.last == false %}
                                 <em>|</em>
                             {% endif %}
@@ -32,7 +32,7 @@
                     {% if item.tools %}
                     <div class="twelve columns">
                         {% for tool in item.tools|sort %}
-                                <em>{{ tool.name }}</em>
+                                <em class="tool">{{ tool.name }}</em>
                             {% if loop.last == false %}
                                 <em>|</em>
                             {% endif %}

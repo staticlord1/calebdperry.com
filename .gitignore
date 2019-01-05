@@ -16,6 +16,7 @@ user/data/*
 user/accounts/*
 user/localhost/config/security.yaml
 user/config/security.yaml
+tmp/*
 
 # OS Generated
 .DS_Store*

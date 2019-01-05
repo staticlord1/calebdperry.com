@@ -302,6 +302,13 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 
+.tool, .lang {
+   transition: all .3s ease-in-out;
+}
+.tool:hover, .lang:hover{
+   font-size: 20px;
+}
+
 .language em, .skill em {
    font: 15px 'opensans-bold', sans-serif;
    color: #313131;

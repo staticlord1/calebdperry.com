@@ -15,6 +15,10 @@ portfolio:
     content: "This website! A simple yet appealing portfolio website built with Grav and the CeeVee theme that I modified to my needs"
     tags: Web Development, PHP, JavaScript
     details: http://calebdperry.com
-
+  - title: "Dev Diary"
+    description: Web Development
+    content: "A blog built with WordPress and hosted on DigitalOcean"
+    tags: Web Development, WordPress
+    details: http://devdiary.tk/
 ---
 #Here are some of the projects I've worked on
